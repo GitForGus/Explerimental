@@ -1,0 +1,33 @@
+### Online
+irgendwie an files rumdoktorn. wenn fertig:
+git add .  #alle änderungen speichern
+git commit -m "some note what changed" -"further information"
+
+
+### Offline
+#Visual studio code öffnen: terminal 
+code 
+
+#in Visual studio: öffne terminal
+
+add -> commit -> push #genereller ablauf
+
+#man kann sich jederzeit mit status der Veränderungen angucken mit:
+git status 
+
+git push origin master #lädt das ganze online.
+
+git remote -v  # zeigt repositories, die mit aktuellem Ordner verknüpft sind.
+
+#Ordner mit online repo verknüpfen:
+Repo erstellen. ssh code kopieren.
+git remote add origin sshcode
+
+
+###Git branching
+Branch Versions ("feature branches") edit testing version -> merge them back to master branch.
+#make new branch:
+git checkout -b feature     #feature will be here the branchnumber
+
+git branch                  # shows what branch we are on
+git checkout master         # switches to master branch
