@@ -1,0 +1,11 @@
+Visual studio code öffnen: terminal: code
+öffne terminal
+
+
+irgendwie an files rumdoktorn. wenn fertig:
+git add .  #alle änderungen speichern
+git commit -m "some note what changed" -"forther information
+
+man kann jederzeit mit git status angucken
+
+git push lädt das ganze online.
